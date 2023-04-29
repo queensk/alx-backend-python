@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env python3
 """
 Float to string
 """
