@@ -2,15 +2,15 @@
 """
 More involved type annotations
 """
-from typing import Sequence, Any, Union, Mapping, TypeVar, Optional
+from typing import Any, Union, Mapping, TypeVar
 
 
 T = TypeVar('T')
 
 
 def safely_get_value(
-        dct: Mapping[Any, T], key: Any,
-        default: Optional[T] = None) -> Union[T, None]:
+        dct: Mapping, key: Any,
+        default: Union[T, None] = None) -> Union[Any, T]:
     """
     More involved type annotations
     """
