@@ -6,6 +6,9 @@ from typing import Union, Any, Mapping, Tuple, List
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
+    '''
+    Variable Annotation for list
+    '''
     zoomed_in: List = [
         item for item in lst
         for i in range(factor)
